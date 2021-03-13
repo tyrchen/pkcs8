@@ -1,0 +1,23 @@
+[package]
+name = "cellar-pkcs8"
+version = "0.1.0"
+authors = ["Tyr Chen <tyr.chen@gmail.com>"]
+edition = "2018"
+license = "MIT"
+documentation = "https://docs.rs/cellar-pkcs8"
+repository = "https://github.com/tyrchen/pkcs8"
+homepage = "https://github.com/tyrchen/pkcs8"
+description = """
+Pkcs8 support for ed25519 key.
+"""
+readme = "README.md"
+categories = ["development-tools"]
+keywords = ["pkcs8", "cellar", "ed25519"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+untrusted = "0.7"
+
+[dev-dependencies]
+rand = "0.8"
