@@ -23,8 +23,6 @@ mod positive;
 pub use error::{KeyRejected, Unspecified};
 pub use positive::Positive;
 
-use untrusted;
-
 const ELEM_MAX_BITS: usize = 384;
 pub const ELEM_MAX_BYTES: usize = (ELEM_MAX_BITS + 7) / 8;
 
